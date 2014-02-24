@@ -1,0 +1,9 @@
+Overall:
+    - How much capacitance is really needed on the power pins? My instinct tells me the ceramics should deal with the 400kHz ripple and just let the electrolytics handle the audio. But everything just seems a bit undersized for that.
+
+For the PCB layout:
+    - OUTPR and OUTPL tracks seem sort of long and thin
+    - Not sure about the VCC track from FB1 to C6
+    - The whole EMI thing: i've no clue. I've basically just added the ferrite beads to "keep the noise in." And sprinkled vias where the upper ground plane seemed "flappy".
+    - Don't know if the groundplane should extend past the ferrite beads.
+    - All the goddamn polygons in the groundplanes. How do you connect the pads/vias without them?
