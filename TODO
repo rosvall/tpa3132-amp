@@ -7,3 +7,4 @@ For the PCB layout:
     - The whole EMI thing: i've no clue. I've basically just added the ferrite beads to "keep the noise in." And sprinkled vias where the upper ground plane seemed "flappy".
     - Don't know if the groundplane should extend past the ferrite beads.
     - All the goddamn polygons in the groundplanes. How do you connect the pads/vias without them?
+    - Clearances a pretty uneven. Footprints appearantly define their own copper-copper clearance.
