@@ -11,7 +11,7 @@ Thermal[0.500000]
 DRC[7.48mil 7.87mil 7.87mil 5.91mil 11.81mil 5.91mil]
 Flags("localref,showdrc,rubberband,nameonpcb,autodrc,swapstartdir,clearnew,snappin")
 Groups("1,s:2,c:3:4")
-Styles["Signal,7.87mil,23.62mil,11.81mil,7.87mil:Power,0.01mil,0.60mil,0.35mil,0.08mil:Fat,0.40mil,0.60mil,0.35mil,0.10mil:Skinny,0.06mil,0.24mil,0.12mil,6.00mil"]
+Styles["Signal,0.2700mm,23.62mil,0.3000mm,7.87mil:Power,0.7000mm,0.6000mm,0.3000mm,0.2000mm:Fat,0.40mil,0.60mil,0.35mil,0.10mil:Skinny,0.06mil,0.24mil,0.12mil,6.00mil"]
 
 Symbol[' ' 18.00mil]
 (
@@ -845,8 +845,6 @@ Via[36.3266mm 32.4328mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[36.3489mm 1319.60mil 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[39.0802mm 33.5064mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[39.1178mm 654.11mil 23.62mil 15.77mil 0.0000 11.81mil "" ""]
-Via[389.78mil 612.20mil 23.62mil 15.77mil 0.0000 11.81mil "" ""]
-Via[519.70mil 533.46mil 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[740.64mil 892.39mil 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[771.67mil 824.80mil 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[771.67mil 734.25mil 23.62mil 15.77mil 0.0000 11.81mil "" ""]
@@ -859,8 +857,6 @@ Via[39.2003mm 24.3500mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[39.2003mm 25.8501mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[36.4002mm 25.8501mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[36.4002mm 24.3500mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
-Via[598.44mil 17.6500mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
-Via[610.25mil 848.43mil 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[876.00mil 25.0500mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[813.91mil 375.72mil 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[442.89mil 36.5948mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
@@ -956,6 +952,7 @@ Via[846.46mil 42.5000mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
 Via[728.35mil 39.5000mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
 Via[374.02mil 36.5001mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
 Via[728.35mil 413.39mil 23.62mil 15.75mil 0.0000 11.81mil "" ""]
+Via[10.0001mm 17.7001mm 23.62mil 15.74mil 0.0000 11.81mil "" ""]
 
 Element["" "TQFN32_5_EP" "U1" "TPA3132D2" 629.61mil 987.89mil -169.38mil 146.56mil 1 100 ""]
 (
@@ -1125,7 +1122,7 @@ Element["" "R0805" "C8" "1u" 688.99mil 645.68mil -127.95mil -29.53mil 0 100 ""]
 
 	)
 
-Element["" "R0805" "C5" "1u" 452.77mil 736.23mil -29.53mil -124.02mil 0 100 ""]
+Element["" "R0805" "C5" "1u" 452.77mil 736.23mil -2.4502mm 0.8497mm 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1758,6 +1755,22 @@ Element["" "bourns-sdr1006" "L4" "10u" 1131.90mil 1637.80mil 275.58mil 3.7498mm 
 	ElementLine [211.85mil -211.85mil 211.85mil 211.85mil 6.10mil]
 
 	)
+
+Element["" "R0805" "R7" "100k" 11.5001mm 598.43mil -2.5000mm 1.6000mm 1 100 ""]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-0.3000mm 0.9500mm 0.3000mm 0.9500mm 0.7000mm 12.00mil 0.7762mm "1" "1" "square"]
+	Pad[-0.3000mm -0.9500mm 0.3000mm -0.9500mm 0.7000mm 12.00mil 0.7762mm "2" "2" "square"]
+	ElementLine [-0.9300mm 1.5800mm 0.9300mm 1.5800mm 0.1550mm]
+	ElementLine [-0.9300mm -1.5800mm 0.9300mm -1.5800mm 0.1550mm]
+	ElementLine [0.9300mm -1.5800mm 0.9300mm 1.5800mm 0.1550mm]
+	ElementLine [-0.9300mm -1.5800mm -0.9300mm 1.5800mm 0.1550mm]
+
+	)
 Layer(1 "bottom")
 (
 	Polygon("")
@@ -1842,11 +1855,8 @@ Layer(2 "top")
 	Line[651.59mil 889.77mil 647.95mil 893.40mil 19.69mil 15.74mil "clearline"]
 	Line[157.49mil 35.6502mm 159.07mil 35.6103mm 19.69mil 15.74mil "clearline"]
 	Line[159.07mil 35.6103mm 255.92mil 35.6103mm 19.69mil 15.74mil "clearline"]
-	Line[447.31mil 484.26mil 570.88mil 484.26mil 27.56mil 15.74mil "clearline"]
 	Line[330.72mil 35.3103mm 292.34mil 34.3355mm 27.56mil 15.74mil "clearline"]
 	Line[292.34mil 34.3355mm 292.34mil 640.35mil 27.56mil 15.74mil "clearline"]
-	Line[292.34mil 640.35mil 448.43mil 484.26mil 27.56mil 15.74mil "clearline"]
-	Line[448.43mil 484.26mil 459.27mil 484.26mil 27.56mil 15.74mil "clearline"]
 	Line[570.88mil 38.1503mm 570.88mil 37.6918mm 27.56mil 15.74mil "clearline"]
 	Line[570.88mil 37.6918mm 480.22mil 35.3888mm 27.56mil 15.74mil "clearline"]
 	Line[480.22mil 35.3888mm 333.81mil 35.3888mm 27.56mil 15.74mil "clearline"]
@@ -1944,6 +1954,16 @@ Layer(2 "top")
 	Line[37.7502mm 818.91mil 37.7502mm 881.90mil 27.56mil 15.74mil "clearline"]
 	Line[37.4503mm 38.3002mm 30.9504mm 44.8000mm 27.56mil 15.74mil "clearline"]
 	Line[42.2501mm 30.8503mm 42.2501mm 31.1503mm 27.56mil 15.74mil "clearline"]
+	Line[10.0001mm 17.7001mm 395.68mil 698.83mil 7.87mil 15.74mil "clearline"]
+	Line[570.88mil 14.3999mm 570.88mil 14.3001mm 7.87mil 15.74mil "clearline"]
+	Line[292.34mil 640.35mil 9.4402mm 14.2501mm 0.7000mm 0.4000mm "clearline"]
+	Line[9.4402mm 14.2501mm 11.5001mm 14.2501mm 0.7000mm 0.4000mm "clearline"]
+	Line[11.5001mm 14.2501mm 13.5504mm 12.1999mm 0.7000mm 0.4000mm "clearline"]
+	Line[13.5504mm 12.1999mm 570.88mil 12.1999mm 0.7000mm 0.4000mm "clearline"]
+	Line[440.96mil 698.83mil 11.1502mm 17.7001mm 0.2700mm 15.74mil "clearline"]
+	Line[11.1502mm 17.7001mm 10.0001mm 17.7001mm 0.2700mm 15.74mil "clearline"]
+	Line[600.09mil 885.14mil 600.09mil 19.8923mm 0.2700mm 15.74mil "clearline"]
+	Line[600.09mil 19.8923mm 11.5001mm 16.1501mm 0.2700mm 15.74mil "clearline"]
 	Polygon("")
 	(
 		[492.14mil 48.1503mm] [649.62mil 48.1503mm] [649.62mil 42.9001mm] [492.14mil 42.9001mm] 
@@ -2010,22 +2030,6 @@ Layer(2 "top")
 	)
 	Polygon("")
 	(
-		[366.15mil 714.57mil] [622.06mil 714.57mil] [622.06mil 651.57mil] [366.15mil 651.57mil] 
-	)
-	Polygon("")
-	(
-		[433.08mil 588.58mil] [374.23mil 589.15mil] [354.34mil 647.64mil] [433.08mil 647.64mil] 
-	)
-	Polygon("")
-	(
-		[543.32mil 509.84mil] [492.14mil 509.84mil] [492.14mil 557.09mil] [543.32mil 557.09mil] 
-	)
-	Polygon("")
-	(
-		[594.50mil 22.0500mm] [629.93mil 22.0500mm] [629.93mil 824.80mil] [594.50mil 824.80mil] 
-	)
-	Polygon("")
-	(
 		[35.4002mm 26.8501mm] [40.2003mm 26.8501mm] [40.2003mm 915.35mil] [35.4002mm 915.35mil] 
 	)
 	Polygon("")
@@ -2071,10 +2075,6 @@ Layer(2 "top")
 	Polygon("")
 	(
 		[34.2504mm 769.69mil] [36.0002mm 769.69mil] [36.0002mm 848.43mil] [34.2504mm 848.43mil] 
-	)
-	Polygon("clearpoly")
-	(
-		[649.62mil 22.0500mm] [295.29mil 22.0500mm] [295.29mil 12.0500mm] [649.62mil 12.0500mm] 
 	)
 	Polygon("")
 	(
@@ -2380,6 +2380,7 @@ NetList()
 	)
 	Net("unnamed_net11" "(unknown)")
 	(
+		Connect("R7-1")
 		Connect("U1-29")
 		Connect("U1-30")
 	)
@@ -2462,6 +2463,7 @@ NetList()
 		Connect("C12-1")
 		Connect("C14-1")
 		Connect("FB1-2")
+		Connect("R7-2")
 		Connect("U1-12")
 		Connect("U1-13")
 		Connect("U1-14")
