@@ -1,4 +1,4 @@
-v 20121203 2
+v 20130925 2
 C 30400 46600 1 90 0 gnd-1.sym
 C 29000 47600 1 90 0 capacitor-1.sym
 {
@@ -118,12 +118,14 @@ footprint=HEADER2_2
 C 24000 40000 1 0 0 gnd-1.sym
 C 25400 42700 1 0 0 tpa3132d2.sym
 {
-T 29800 47200 5 10 1 1 0 6 1
+T 25850 47150 5 10 1 1 0 0 1
 refdes=U1
-T 27600 45300 5 10 0 0 0 0 1
+T 30900 43050 5 10 0 0 0 8 1
 device=TPA3132D2
 T 27600 45500 5 10 0 0 0 0 1
 footprint=TQFN32_5_EP
+T 27700 44700 5 10 0 1 0 8 1
+value=TPA3132D2
 }
 C 29000 41700 1 90 0 capacitor-1.sym
 {
@@ -448,7 +450,7 @@ footprint=R0805
 T 29900 39700 15 7 1 0 0 0 1
 TPA3132 Active Speaker Amp
 T 33900 39400 15 7 1 0 0 0 1
-20140222
+$Id$
 T 33900 39100 15 7 1 0 0 0 1
 Andreas Rosvall <andreas (at) rosvall (dot) dk>
 C 23200 40900 1 0 0 inductor-1.sym
