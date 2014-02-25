@@ -9,3 +9,4 @@ For the PCB layout:
     - Don't know if the groundplane should extend past the ferrite beads.
     - All the goddamn polygons in the groundplanes. How do you connect the pads/vias without them?
     - Clearances a pretty uneven. Footprints appearantly define their own copper-copper clearance.
+    - Fix mounting holes
