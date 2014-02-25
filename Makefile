@@ -1,6 +1,8 @@
-render: tpa3132-amp.photomode.png \
+PRINTSCM := /usr/share/gEDA/scheme/print.scm
+render: tpa3132-amp.sch.pdf \
+	tpa3132-amp.photomode.png \
 	tpa3132-amp.composite.png \
-	tpa3132-amp.ps
+	tpa3132-amp.pcb.pdf
 
 
 %.photomode.png: %.pcb
@@ -11,6 +13,11 @@ render: tpa3132-amp.photomode.png \
 	pcb -x png --outfile $@ --dpi 1200 $<
 	mogrify -resize 50% $@
 
-%.ps: %.pcb
+%.pcb.ps: %.pcb
 	pcb -x ps --outfile $@ $<
 
+%.sch.ps: %.sch
+	gschem -p -o $@ -s $(PRINTSCM) $<
+
+%.pdf: %.ps
+	ps2pdf $< $@
