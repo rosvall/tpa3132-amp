@@ -5,10 +5,10 @@ FileVersion[20091103]
 
 PCB["" 1968.50mil 1968.50mil]
 
-Grid[393.700787 0.1178mm 4.50mil 0]
+Grid[1.000000 0.0000 0.0000 0]
 PolyArea[200000000.000000]
 Thermal[0.500000]
-DRC[7.48mil 7.87mil 7.87mil 5.91mil 11.81mil 5.91mil]
+DRC[7.48mil 7.87mil 7.87mil 0.1501mm 11.81mil 0.1490mm]
 Flags("localref,showdrc,rubberband,nameonpcb,autodrc,swapstartdir,clearnew,snappin")
 Groups("1,s:2,c:3:4")
 Styles["Signal,0.2700mm,0.6001mm,0.3000mm,0.1999mm:Power,0.7000mm,0.6000mm,0.3000mm,0.2000mm:Fat,0.40mil,0.60mil,0.35mil,0.10mil:Skinny,0.06mil,0.24mil,0.12mil,6.00mil"]
@@ -786,9 +786,9 @@ Symbol['~' 12.00mil]
 	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
 )
 Attribute("PCB::grid::unit" "mm")
-Attribute("PCB::grid::size" "0.1000mm")
-Via[157.49mil 46.0499mm 236.22mil 2.0000mm 0.0000 125.98mil "" ""]
-Via[157.49mil 159.45mil 236.22mil 2.0000mm 0.0000 125.98mil "" ""]
+Attribute("PCB::grid::size" "0.01mil")
+Via[4.0000mm 46.0000mm 236.22mil 2.0000mm 0.0000 125.98mil "" ""]
+Via[4.0000mm 4.0000mm 236.22mil 2.0000mm 0.0000 125.98mil "" ""]
 Via[582.69mil 26.3002mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[606.31mil 26.3002mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[629.93mil 26.3002mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
@@ -830,9 +830,8 @@ Via[614.19mil 47.1002mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[614.19mil 45.9001mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[614.19mil 44.7002mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[614.19mil 43.5000mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
-Via[46.0004mm 46.0499mm 236.22mil 2.0000mm 0.0000 125.98mil "" ""]
-Via[46.0004mm 159.45mil 236.22mil 2.0000mm 0.0000 125.98mil "" ""]
-Via[738.59mil 27.5783mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
+Via[46.0000mm 46.0000mm 236.22mil 2.0000mm 0.0000 125.98mil "" ""]
+Via[46.0000mm 4.0000mm 236.22mil 2.0000mm 0.0000 125.98mil "" ""]
 Via[381.90mil 26.8501mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[590.56mil 32.9499mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[586.63mil 29.1501mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
@@ -845,28 +844,19 @@ Via[36.3266mm 32.4328mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[36.3489mm 1319.60mil 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[39.0802mm 33.5064mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[39.1178mm 654.11mil 23.62mil 15.77mil 0.0000 11.81mil "" ""]
-Via[740.64mil 892.39mil 23.62mil 15.77mil 0.0000 11.81mil "" ""]
-Via[771.67mil 824.80mil 23.62mil 15.77mil 0.0000 11.81mil "" ""]
-Via[771.67mil 734.25mil 23.62mil 15.77mil 0.0000 11.81mil "" ""]
-Via[771.67mil 16.3500mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
-Via[866.15mil 545.28mil 23.62mil 15.77mil 0.0000 11.81mil "" ""]
-Via[866.15mil 18.3500mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
-Via[866.15mil 31.8501mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
-Via[866.15mil 1431.10mil 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[39.2003mm 24.3500mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[39.2003mm 25.8501mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[36.4002mm 25.8501mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[36.4002mm 24.3500mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
-Via[876.00mil 25.0500mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[813.91mil 375.72mil 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[442.89mil 36.5948mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[629.93mil 494.09mil 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[34.7502mm 30.0500mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[34.7502mm 33.0500mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[1381.90mil 20.0500mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
-Via[771.67mil 29.3500mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
-Via[771.67mil 31.6499mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
-Via[771.67mil 33.8501mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
+Via[19.5000mm 28.7500mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
+Via[19.5000mm 31.2500mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
+Via[19.5000mm 33.7500mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[364.17mil 32.2501mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
 Via[364.17mil 32.9999mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
 Via[364.17mil 33.7500mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
@@ -879,19 +869,15 @@ Via[334.65mil 27.7500mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
 Via[531.50mil 27.5999mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
 Via[11.7000mm 34.2999mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
 Via[452.76mil 27.5999mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
-Via[771.65mil 30.5001mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
-Via[771.65mil 32.7000mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
-Via[771.65mil 35.1000mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
-Via[771.65mil 28.2001mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
-Via[771.65mil 874.02mil 23.62mil 15.75mil 0.0000 11.81mil "" ""]
-Via[771.65mil 779.53mil 23.62mil 15.75mil 0.0000 11.81mil "" ""]
-Via[771.65mil 688.98mil 23.62mil 15.75mil 0.0000 11.81mil "" ""]
-Via[771.65mil 598.43mil 23.62mil 15.75mil 0.0000 11.81mil "" ""]
+Via[19.5000mm 30.0000mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
+Via[19.5000mm 32.5000mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
+Via[767.73mil 35.0501mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
+Via[19.5000mm 27.5000mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
 Via[18.4000mm 37.7000mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
 Via[783.46mil 39.2001mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
 Via[822.85mil 40.6499mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
 Via[637.80mil 37.8000mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
-Via[799.21mil 36.2999mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
+Via[20.2500mm 36.2500mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
 Via[807.09mil 417.32mil 23.62mil 15.75mil 0.0000 11.81mil "" ""]
 Via[18.0000mm 492.13mil 23.62mil 15.75mil 0.0000 11.81mil "" ""]
 Via[503.94mil 429.13mil 23.62mil 15.75mil 0.0000 11.81mil "" ""]
@@ -962,6 +948,27 @@ Via[35.1178mm 22.1144mm 0.6000mm 0.4000mm 0.0000 0.3000mm "" ""]
 Via[35.1178mm 28.6144mm 0.6000mm 0.4000mm 0.0000 0.3000mm "" ""]
 Via[34.8678mm 11.3644mm 0.6000mm 0.4000mm 0.0000 0.3000mm "" ""]
 Via[34.8678mm 38.3644mm 0.6000mm 0.4000mm 0.0000 0.3000mm "" ""]
+Via[19.4997mm 16.4499mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
+Via[19.4997mm 18.9499mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
+Via[19.4997mm 21.4499mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
+Via[19.4997mm 17.6999mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
+Via[19.4997mm 20.1999mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
+Via[19.5000mm 22.7500mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
+Via[19.4997mm 15.1999mm 23.62mil 15.75mil 0.0000 11.81mil "" ""]
+Via[22.7500mm 13.7500mm 0.6000mm 0.4000mm 0.0000 0.3000mm "" ""]
+Via[22.0000mm 13.7500mm 0.6000mm 0.4000mm 0.0000 0.3000mm "" ""]
+Via[22.7500mm 18.2500mm 0.6000mm 0.4000mm 0.0000 0.3000mm "" ""]
+Via[22.0000mm 18.2500mm 0.6000mm 0.4000mm 0.0000 0.3000mm "" ""]
+Via[21.2500mm 18.2500mm 0.6000mm 0.4000mm 0.0000 0.3000mm "" ""]
+Via[22.0000mm 32.0000mm 0.6000mm 0.4000mm 0.0000 0.3000mm "" ""]
+Via[21.2500mm 32.0000mm 0.6000mm 0.4000mm 0.0000 0.3000mm "" ""]
+Via[22.7500mm 36.5000mm 0.6000mm 0.4000mm 0.0000 0.3000mm "" ""]
+Via[22.0000mm 36.5000mm 0.6000mm 0.4000mm 0.0000 0.3000mm "" ""]
+Via[21.2500mm 36.5000mm 0.6000mm 0.4000mm 0.0000 0.3000mm "" ""]
+Via[22.0000mm 29.5000mm 0.6000mm 0.4000mm 0.0000 0.3000mm "" ""]
+Via[22.0000mm 20.7500mm 0.6000mm 0.4000mm 0.0000 0.3000mm "" ""]
+Via[21.2500mm 13.7500mm 0.6000mm 0.4000mm 0.0000 0.3000mm "" ""]
+Via[22.7500mm 32.0000mm 0.6000mm 0.4000mm 0.0000 0.3000mm "" ""]
 
 Element["" "TQFN32_5_EP" "U1" "TPA3132D2" 629.61mil 987.89mil -169.38mil 146.56mil 1 100 ""]
 (
@@ -1441,22 +1448,6 @@ Element["" "R0805" "C20" "680n" 866.15mil 645.68mil -98.43mil 45.28mil 1 100 ""]
 
 	)
 
-Element["" "R0805" "C21" "680n" 866.15mil 33.9001mm -99.80mil 40.89mil 1 100 ""]
-(
-	Attribute("device" "CAPACITOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-11.81mil 37.40mil 11.81mil 37.40mil 27.56mil 12.00mil 30.56mil "1" "1" "square"]
-	Pad[-11.81mil -37.40mil 11.81mil -37.40mil 27.56mil 12.00mil 30.56mil "2" "2" "square"]
-	ElementLine [-36.61mil 62.20mil 36.61mil 62.20mil 6.10mil]
-	ElementLine [-36.61mil -62.20mil 36.61mil -62.20mil 6.10mil]
-	ElementLine [36.61mil -62.20mil 36.61mil 62.20mil 6.10mil]
-	ElementLine [-36.61mil -62.20mil -36.61mil 62.20mil 6.10mil]
-
-	)
-
 Element["" "R0805" "FB5" "unknown" 41.3001mm 31.1503mm -37.40mil -101.57mil 0 100 ""]
 (
 	Attribute("device" "HI0805R800R-10")
@@ -1780,6 +1771,22 @@ Element["" "R0805" "R7" "100k" 452.76mil 598.43mil -2.5000mm 1.6000mm 1 100 ""]
 	ElementLine [-0.9300mm -1.5800mm -0.9300mm 1.5800mm 0.1550mm]
 
 	)
+
+Element["" "R0805" "C21" "680n" 866.15mil 33.9001mm -99.80mil 40.89mil 1 100 ""]
+(
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-11.81mil 37.40mil 11.81mil 37.40mil 27.56mil 12.00mil 30.56mil "1" "1" "square"]
+	Pad[-11.81mil -37.40mil 11.81mil -37.40mil 27.56mil 12.00mil 30.56mil "2" "2" "square"]
+	ElementLine [-36.61mil 62.20mil 36.61mil 62.20mil 6.10mil]
+	ElementLine [-36.61mil -62.20mil 36.61mil -62.20mil 6.10mil]
+	ElementLine [36.61mil -62.20mil 36.61mil 62.20mil 6.10mil]
+	ElementLine [-36.61mil -62.20mil -36.61mil 62.20mil 6.10mil]
+
+	)
 Layer(1 "bottom")
 (
 	Polygon("")
@@ -1833,15 +1840,8 @@ Layer(2 "top")
 	Line[574.81mil 45.3001mm 574.81mil 45.3001mm 19.69mil 15.74mil ""]
 	Line[574.81mil 45.3001mm 614.19mil 45.3001mm 19.69mil 15.74mil ""]
 	Line[817.64mil 31.0360mm 817.64mil 35.2745mm 18.50mil 15.74mil ""]
-	Line[817.64mil 35.3210mm 867.45mil 1440.40mil 18.50mil 15.77mil ""]
 	Line[38.5028mm 985.68mil 37.7502mm 1019.70mil 18.50mil 15.77mil ""]
-	Line[854.34mil 37.4503mm 901.69mil 37.4363mm 19.69mil 15.74mil ""]
-	Line[901.69mil 37.4363mm 872.05mil 36.1503mm 19.69mil 15.74mil ""]
-	Line[22.0030mm 36.5559mm 867.45mil 1440.40mil 19.69mil 15.74mil ""]
-	Line[867.45mil 1440.40mil 872.05mil 36.1503mm 19.69mil 15.74mil ""]
-	Line[854.34mil 32.9504mm 849.02mil 32.8150mm 19.69mil 15.74mil ""]
-	Line[849.02mil 32.8150mm 817.64mil 1309.10mil 19.69mil 15.74mil ""]
-	Line[854.34mil 505.91mil 895.79mil 534.89mil 19.69mil 15.74mil ""]
+	Line[22.0028mm 36.4560mm 22.0330mm 36.4862mm 19.69mil 15.74mil ""]
 	Line[677.18mil 940.95mil 697.76mil 920.36mil 10.63mil 15.77mil "clearline"]
 	Line[697.76mil 920.36mil 707.05mil 920.36mil 10.63mil 15.77mil "clearline"]
 	Line[707.05mil 920.36mil 17.9710mm 919.89mil 10.63mil 15.77mil "clearline"]
@@ -2011,27 +2011,11 @@ Layer(2 "top")
 	)
 	Polygon("")
 	(
-		[917.60mil 1487.90mil] [826.53mil 1487.90mil] [826.53mil 35.4792mm] [917.60mil 35.4792mm] 
-	)
-	Polygon("")
-	(
 		[35.0134mm 31.9189mm] [39.7457mm 31.9189mm] [39.7457mm 34.0815mm] [35.0134mm 34.0815mm] 
 	)
 	Polygon("")
 	(
 		[759.85mil 903.54mil] [795.29mil 903.54mil] [795.29mil 15.7500mm] [759.85mil 15.7500mm] 
-	)
-	Polygon("")
-	(
-		[822.85mil 33.8501mm] [913.40mil 33.8501mm] [913.40mil 30.3500mm] [822.85mil 30.3500mm] 
-	)
-	Polygon("")
-	(
-		[826.78mil 16.6500mm] [913.40mil 16.6500mm] [913.40mil 742.13mil] [826.78mil 742.13mil] 
-	)
-	Polygon("")
-	(
-		[913.40mil 490.16mil] [834.66mil 490.16mil] [834.66mil 572.83mil] [913.40mil 572.83mil] 
 	)
 	Polygon("")
 	(
@@ -2056,10 +2040,6 @@ Layer(2 "top")
 	Polygon("")
 	(
 		[314.20mil 34.0045mm] [396.88mil 34.0045mm] [396.88mil 31.9547mm] [314.20mil 31.9547mm] 
-	)
-	Polygon("")
-	(
-		[859.89mil 965.25mil] [916.09mil 960.78mil] [916.09mil 25.8575mm] [830.14mil 998.53mil] 
 	)
 	Polygon("")
 	(
@@ -2108,10 +2088,6 @@ Layer(2 "top")
 	Polygon("")
 	(
 		[732.28mil 602.36mil] [19.7000mm 559.06mil] [21.0000mm 610.24mil] [783.46mil 653.54mil] 
-	)
-	Polygon("")
-	(
-		[755.91mil 35.9999mm] [799.21mil 34.9001mm] [850.39mil 1425.20mil] [807.09mil 1468.50mil] 
 	)
 	Polygon("")
 	(
@@ -2223,10 +2199,6 @@ Layer(2 "top")
 	)
 	Polygon("clearpoly")
 	(
-		[726.39mil 822.84mil] [28.7001mm 822.84mil] [28.7001mm 30.2001mm] [726.39mil 30.2001mm] 
-	)
-	Polygon("clearpoly")
-	(
 		[1131.90mil 464.57mil] [40.5001mm 464.57mil] [40.5001mm 1531.50mil] [1131.90mil 1531.50mil] 
 	)
 	Polygon("clearpoly")
@@ -2243,7 +2215,7 @@ Layer(2 "top")
 	)
 	Polygon("clearpoly")
 	(
-		[20.3001mm 17.7001mm] [34.9001mm 17.7001mm] [34.9001mm 10.5001mm] [20.3001mm 10.5001mm] 
+		[20.3001mm 17.7001mm] [34.9001mm 17.7001mm] [34.9001mm 413.39mil] [20.3001mm 413.39mil] 
 	)
 	Polygon("clearpoly")
 	(
@@ -2288,6 +2260,66 @@ Layer(2 "top")
 	Polygon("")
 	(
 		[1357.00mil 17.0644mm] [35.7178mm 17.0644mm] [35.7178mm 18.3144mm] [1357.00mil 18.3144mm] 
+	)
+	Polygon("")
+	(
+		[41.5000mm 26.0000mm] [42.5000mm 26.0000mm] [42.5000mm 27.0000mm] [41.5000mm 27.0000mm] 
+	)
+	Polygon("")
+	(
+		[19.0000mm 27.0000mm] [20.0000mm 27.0000mm] [20.0000mm 28.0000mm] [19.0000mm 28.0000mm] 
+	)
+	Polygon("")
+	(
+		[19.0000mm 34.5000mm] [20.0000mm 34.5000mm] [20.0000mm 35.5000mm] [19.0000mm 35.5000mm] 
+	)
+	Polygon("")
+	(
+		[19.0000mm 22.2500mm] [20.0000mm 22.2500mm] [20.0000mm 23.2500mm] [19.0000mm 23.2500mm] 
+	)
+	Polygon("")
+	(
+		[755.91mil 35.9999mm] [799.21mil 34.9001mm] [850.39mil 1425.20mil] [807.09mil 1468.50mil] 
+	)
+	Polygon("")
+	(
+		[41.3288mm 38.3911mm] [43.6402mm 38.3911mm] [43.6402mm 40.5829mm] [41.3288mm 40.5829mm] 
+	)
+	Polygon("")
+	(
+		[825.80mil 35.6380mm] [916.80mil 35.6380mm] [916.80mil 37.8297mm] [825.80mil 37.8297mm] 
+	)
+	Polygon("")
+	(
+		[824.95mil 31.3212mm] [915.95mil 31.3212mm] [915.95mil 33.5130mm] [824.95mil 33.5130mm] 
+	)
+	Polygon("")
+	(
+		[824.71mil 28.9293mm] [23.2590mm 28.9293mm] [23.2590mm 31.1211mm] [824.71mil 31.1211mm] 
+	)
+	Polygon("")
+	(
+		[821.41mil 753.58mil] [912.41mil 753.58mil] [912.41mil 839.87mil] [821.41mil 839.87mil] 
+	)
+	Polygon("")
+	(
+		[832.64mil 656.21mil] [923.64mil 656.21mil] [923.64mil 742.50mil] [832.64mil 742.50mil] 
+	)
+	Polygon("")
+	(
+		[803.33mil 656.21mil] [22.7160mm 656.21mil] [22.7160mm 742.50mil] [803.33mil 742.50mil] 
+	)
+	Polygon("")
+	(
+		[825.11mil 488.68mil] [916.11mil 488.68mil] [916.11mil 574.97mil] [825.11mil 574.97mil] 
+	)
+	Polygon("")
+	(
+		[20.4769mm 13.2543mm] [21.4769mm 13.2543mm] [21.4769mm 14.2543mm] [20.4769mm 14.2543mm] 
+	)
+	Polygon("")
+	(
+		[20.8123mm 36.0637mm] [21.8123mm 36.0637mm] [21.8123mm 1459.20mil] [20.8123mm 1459.20mil] 
 	)
 )
 Layer(3 "outline")
