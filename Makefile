@@ -1,4 +1,3 @@
-PRINTSCM := /usr/share/gEDA/scheme/print.scm
 render: tpa3132-amp.sch.pdf \
 	tpa3132-amp.photomode.png \
 	tpa3132-amp.composite.png \
@@ -16,8 +15,8 @@ render: tpa3132-amp.sch.pdf \
 %.pcb.ps: %.pcb
 	pcb -x ps --psfile $@ $<
 
-%.sch.ps: %.sch
-	gschem -p -o $@ -s $(PRINTSCM) $<
+%.sch.pdf: %.sch
+	gaf export -c -f pdf -o $@ $<
 
 %.pdf: %.ps
 	ps2pdf $< $@
