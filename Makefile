@@ -14,7 +14,7 @@ render: tpa3132-amp.sch.pdf \
 	mogrify -resize 50% $@
 
 %.pcb.ps: %.pcb
-	pcb -x ps --outfile $@ $<
+	pcb -x ps --psfile $@ $<
 
 %.sch.ps: %.sch
 	gschem -p -o $@ -s $(PRINTSCM) $<
