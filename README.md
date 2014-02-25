@@ -6,9 +6,10 @@ I'm using itead's clearances etc.
 
 This is it so far:
 
-[pdf schematic](https://github.com/rosvall/tpa3132-amp/blob/master/tpa3132-amp.sch.pdf?raw=true)
 I started out with the TPA3116D2 reference schematic and modified it a bit.
-![composite](https://github.com/rosvall/tpa3132-amp/blob/master/tpa3132-amp.composite.png?raw=true)
-![board render](https://github.com/rosvall/tpa3132-amp/blob/master/tpa3132-amp.photomode.png?raw=true)
+![schematic](https://github.com/rosvall/tpa3132-amp/blob/master/tpa3132-amp.sch.png?raw=true)
+
+![composite](https://github.com/rosvall/tpa3132-amp/blob/master/tpa3132-amp.pcb.composite.png?raw=true)
+![board render](https://github.com/rosvall/tpa3132-amp/blob/master/tpa3132-amp.pcb.photomode.png?raw=true)
 
 50x50 mm
