@@ -1,5 +1,6 @@
 Overall:
     - How much capacitance is really needed on the power pins? My instinct tells me the ceramics should deal with the 400kHz ripple and just let the electrolytics handle the audio. But everything just seems a bit undersized for that.
+    - Connectors?
 
 For the PCB layout:
     - OUTPR and OUTPL tracks seem sort of long and thin
