@@ -5,7 +5,7 @@ FileVersion[20091103]
 
 PCB["" 1968.50mil 1968.50mil]
 
-Grid[984.251969 19.69mil 19.69mil 0]
+Grid[393.700787 19.69mil 19.69mil 0]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[7.48mil 7.87mil 7.87mil 5.91mil 11.81mil 5.91mil]
@@ -786,7 +786,7 @@ Symbol['~' 12.00mil]
 	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
 )
 Attribute("PCB::grid::unit" "mm")
-Attribute("PCB::grid::size" "0.2500mm")
+Attribute("PCB::grid::size" "0.1000mm")
 Via[157.49mil 46.0499mm 236.22mil 2.0000mm 0.0000 125.98mil "" ""]
 Via[157.49mil 159.45mil 236.22mil 2.0000mm 0.0000 125.98mil "" ""]
 Via[582.69mil 26.3002mm 23.62mil 15.77mil 0.0000 11.81mil "" ""]
@@ -2211,10 +2211,10 @@ Layer(2 "top")
 )
 Layer(3 "outline")
 (
-	Line[0.2501mm 0.2501mm 49.7501mm 0.2501mm 7.87mil 15.74mil "clearline"]
-	Line[49.7501mm 0.2501mm 49.7501mm 49.7501mm 7.87mil 15.74mil "clearline"]
-	Line[49.7501mm 49.7501mm 0.2501mm 49.7501mm 7.87mil 15.74mil "clearline"]
-	Line[0.2501mm 49.7501mm 0.2501mm 0.2501mm 7.87mil 15.74mil "clearline"]
+	Line[0.1001mm 0.1001mm 49.9001mm 0.1001mm 7.87mil 15.74mil "clearline"]
+	Line[49.9001mm 0.1001mm 49.9001mm 49.9001mm 7.87mil 15.74mil "clearline"]
+	Line[49.9001mm 49.9001mm 0.1001mm 49.9001mm 7.87mil 15.74mil "clearline"]
+	Line[0.1001mm 49.9001mm 0.1001mm 0.1001mm 7.87mil 15.74mil "clearline"]
 )
 Layer(4 "spare")
 (
