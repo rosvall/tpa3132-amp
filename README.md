@@ -6,6 +6,6 @@ I'm using itead's clearances etc.
 
 This is it so far:
 
-[board render](tpa3132-amp.photomode.png)
+![board render][tpa3132-amp.photomode.png]
 
 50x50 mm
