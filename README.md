@@ -11,5 +11,5 @@ I started out with the TPA3116D2 reference schematic and modified it a bit.
 
 ![composite](https://github.com/rosvall/tpa3132-amp/blob/filterless/tpa3132-amp.pcb.composite.png?raw=true)
 ![board render](https://github.com/rosvall/tpa3132-amp/blob/filterless/tpa3132-amp.pcb.photomode.png?raw=true)
-
-50x50 mm
+Actual size!
+50x50 mm (2x2 in)
