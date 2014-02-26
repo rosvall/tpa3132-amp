@@ -6,7 +6,7 @@ render: tpa3132-amp.sch.pdf \
 
 
 %.pcb.photomode.png: %.pcb
-	pcb -x png --outfile $@ --dpi 115 --photo-mode $<
+	pcb -x png --outfile $@ --dpi 115 --use-alpha --photo-mode $<
 
 %.pcb.composite.png: %.pcb
 	pcb -x png --outfile $@ --dpi 1200 $<
