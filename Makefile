@@ -6,12 +6,10 @@ render: tpa3132-amp.sch.pdf \
 
 
 %.pcb.photomode.png: %.pcb
-	pcb -x png --outfile $@ --dpi 800 --photo-mode $<
-	mogrify -resize 50% $@
+	pcb -x png --outfile $@ --dpi 400 --photo-mode $<
 
 %.pcb.composite.png: %.pcb
-	pcb -x png --outfile $@ --dpi 1200 $<
-	mogrify -resize 50% $@
+	pcb -x png --outfile $@ --dpi 600 $<
 
 %.pcb.ps: %.pcb
 	pcb -x ps --psfile $@ $<
