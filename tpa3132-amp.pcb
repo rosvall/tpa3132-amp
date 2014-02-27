@@ -1249,7 +1249,7 @@ Element["" "MLCC3412" "FB5" "unknown" 43.3499mm 32.2501mm 153.54mil -39.37mil 3 
 
 	)
 
-Element["" "HEADER2_2" "R_OUT" "unknown" 37.5350mm 3.8300mm -112.62mil 2.8133mm 1 100 ""]
+Element["" "HEADER2_2" "R_OUT" "unknown" 37.5350mm 3.8300mm 5.4650mm -2.7300mm 3 100 ""]
 (
 	Attribute("device" "CONNECTOR_2")
 	Attribute("manufacturer" "unknown")
@@ -1810,7 +1810,7 @@ Element["" "HEADER2_2" "L_IN" "unknown" 150.00mil 925.00mil -45.07mil 153.99mil 
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 70.00mil 16.13mil 76.00mil 38.00mil "1" "1" ""]
+	Pin[0.0000 0.0000 70.00mil 16.13mil 76.00mil 38.00mil "1" "1" "selected"]
 	Pin[0.0000 100.00mil 70.00mil 16.09mil 76.00mil 38.00mil "2" "2" "square"]
 	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
 	ElementLine [-50.00mil -50.00mil -50.00mil 150.00mil 10.00mil]
@@ -1821,7 +1821,7 @@ Element["" "HEADER2_2" "L_IN" "unknown" 150.00mil 925.00mil -45.07mil 153.99mil 
 
 	)
 
-Element["" "HEADER2_2" "R_IN" "unknown" 150.00mil 825.00mil 41.62mil 118.20mil 2 100 ""]
+Element["" "HEADER2_2" "R_IN" "unknown" 150.00mil 825.00mil -1.3100mm -5.4550mm 0 100 ""]
 (
 	Attribute("device" "CONNECTOR_2")
 	Attribute("manufacturer" "unknown")
