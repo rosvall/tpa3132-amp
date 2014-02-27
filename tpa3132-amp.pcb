@@ -5,11 +5,11 @@ FileVersion[20091103]
 
 PCB["" 1968.50mil 1968.50mil]
 
-Grid[984.251969 0.0000 0.0000 0]
+Grid[2500.000000 0.0000 0.0000 0]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[7.48mil 4.04mil 7.87mil 5.91mil 11.81mil 5.87mil]
-Flags("localref,showdrc,nameonpcb,autodrc,swapstartdir,clearnew,thindrawpoly")
+Flags("localref,showdrc,nameonpcb,autodrc,swapstartdir,clearnew")
 Groups("1,s:2,3,c:4:5")
 Styles["Signal,0.2700mm,0.6000mm,0.3000mm,0.2000mm:Power,0.7000mm,8.00mil,4.00mil,0.2000mm:Fat,0.01mil,0.01mil,0.0000,0.0000:No clearance,0.0000,0.24mil,0.12mil,0.01mil"]
 
@@ -785,8 +785,8 @@ Symbol['~' 12.00mil]
 	SymbolLine[15.00mil 35.00mil 20.00mil 35.00mil 8.00mil]
 	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
 )
-Attribute("PCB::grid::unit" "mm")
-Attribute("PCB::grid::size" "0.2500mm")
+Attribute("PCB::grid::unit" "mil")
+Attribute("PCB::grid::size" "25.00mil")
 Via[157.48mil 45.9999mm 236.22mil 3.8288mm 131.98mil 125.98mil "" "hole"]
 Via[157.48mil 157.48mil 236.22mil 3.8288mm 131.98mil 125.98mil "" "hole"]
 Via[45.9999mm 45.9999mm 236.22mil 3.8288mm 131.98mil 125.98mil "" "hole"]
@@ -1029,51 +1029,15 @@ Via[33.9999mm 37.2500mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
 Via[33.9999mm 41.7500mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
 Via[30.4999mm 10.2500mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
 
-Element["" "HEADER2_2" "L_IN" "unknown" 157.49mil 929.54mil -45.07mil 153.99mil 0 100 ""]
+Element["" "HEADER2_2" "PWR" "unknown" 150.00mil 1400.00mil -39.15mil 59.84mil 0 100 ""]
 (
 	Attribute("device" "CONNECTOR_2")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 60.00mil 22.13mil 66.00mil 38.00mil "1" "1" "square"]
-	Pin[0.0000 100.00mil 60.00mil 24.09mil 66.00mil 38.00mil "2" "2" ""]
-	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 150.00mil 10.00mil]
-	ElementLine [-50.00mil 150.00mil 50.00mil 150.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 150.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
-
-	)
-
-Element["" "HEADER2_2" "R_IN" "unknown" 157.49mil 713.00mil -41.62mil -118.20mil 0 100 ""]
-(
-	Attribute("device" "CONNECTOR_2")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 60.00mil 24.09mil 66.00mil 38.00mil "1" "1" "square"]
-	Pin[0.0000 100.00mil 60.00mil 24.09mil 66.00mil 38.00mil "2" "2" ""]
-	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 150.00mil 10.00mil]
-	ElementLine [-50.00mil 150.00mil 50.00mil 150.00mil 10.00mil]
-	ElementLine [50.00mil -50.00mil 50.00mil 150.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
-
-	)
-
-Element["" "HEADER2_2" "PWR" "unknown" 157.48mil 35.5001mm -39.15mil 59.84mil 0 100 ""]
-(
-	Attribute("device" "CONNECTOR_2")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 60.00mil 24.09mil 66.00mil 38.00mil "1" "1" "square"]
-	Pin[0.0000 -100.00mil 60.00mil 24.09mil 66.00mil 38.00mil "2" "2" ""]
+	Pin[0.0000 0.0000 60.00mil 16.09mil 66.00mil 38.00mil "1" "1" "square"]
+	Pin[0.0000 -100.00mil 60.00mil 16.09mil 66.00mil 38.00mil "2" "2" ""]
 	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
 	ElementLine [50.00mil -150.00mil 50.00mil 50.00mil 10.00mil]
 	ElementLine [-50.00mil -150.00mil 50.00mil -150.00mil 10.00mil]
@@ -1202,8 +1166,8 @@ Element["" "HEADER2_2" "L_OUT" "unknown" 1468.50mil 45.2999mm 217.80mil -43.04mi
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 60.00mil 18.19mil 66.00mil 38.00mil "1" "1" "square,edge2"]
-	Pin[100.00mil 0.0000 60.00mil 20.16mil 66.00mil 38.00mil "2" "2" "edge2"]
+	Pin[0.0000 0.0000 60.00mil 16.19mil 66.00mil 38.00mil "1" "1" "square,edge2"]
+	Pin[100.00mil 0.0000 60.00mil 18.16mil 66.00mil 38.00mil "2" "2" "edge2"]
 	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
 	ElementLine [-50.00mil 50.00mil 150.00mil 50.00mil 10.00mil]
 	ElementLine [150.00mil -50.00mil 150.00mil 50.00mil 10.00mil]
@@ -1332,8 +1296,8 @@ Element["" "HEADER2_2" "R_OUT" "unknown" 39.9900mm 187.01mil 112.62mil -2.8133mm
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 60.00mil 18.19mil 66.00mil 38.00mil "1" "1" "square,edge2"]
-	Pin[-100.00mil 0.0000 60.00mil 18.19mil 66.00mil 38.00mil "2" "2" "edge2"]
+	Pin[0.0000 0.0000 60.00mil 16.19mil 66.00mil 38.00mil "1" "1" "square,edge2"]
+	Pin[-100.00mil 0.0000 60.00mil 16.19mil 66.00mil 38.00mil "2" "2" "edge2"]
 	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
 	ElementLine [-150.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
 	ElementLine [-150.00mil -50.00mil -150.00mil 50.00mil 10.00mil]
@@ -1910,6 +1874,42 @@ Element["" "MLCC0805" "C9" "330p" 39.8500mm 19.0000mm -2.6000mm 1.7500mm 1 100 "
 	ElementLine [37.20mil -66.73mil 37.20mil 66.73mil 6.10mil]
 
 	)
+
+Element["" "HEADER2_2" "L_IN" "unknown" 150.00mil 925.00mil -45.07mil 153.99mil 0 100 ""]
+(
+	Attribute("device" "CONNECTOR_2")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 60.00mil 16.13mil 66.00mil 38.00mil "1" "1" "square"]
+	Pin[0.0000 100.00mil 60.00mil 16.09mil 66.00mil 38.00mil "2" "2" ""]
+	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 150.00mil 10.00mil]
+	ElementLine [-50.00mil 150.00mil 50.00mil 150.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 150.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
+
+	)
+
+Element["" "HEADER2_2" "R_IN" "unknown" 150.00mil 725.00mil -41.62mil -118.20mil 0 100 ""]
+(
+	Attribute("device" "CONNECTOR_2")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[0.0000 0.0000 60.00mil 16.09mil 66.00mil 38.00mil "1" "1" "square"]
+	Pin[0.0000 100.00mil 60.00mil 16.09mil 66.00mil 38.00mil "2" "2" ""]
+	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 150.00mil 10.00mil]
+	ElementLine [-50.00mil 150.00mil 50.00mil 150.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil 50.00mil 150.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
+
+	)
 Layer(1 "bottom")
 (
 	Polygon("clearpoly")
@@ -2054,7 +2054,7 @@ Layer(3 "top")
 	Line[14.5000mm 40.5000mm 702.76mil 37.1499mm 1.4000mm 0.4000mm "clearline"]
 	Line[22.3001mm 25.9001mm 22.9501mm 994.09mil 10.63mil 15.74mil "clearline"]
 	Line[22.9000mm 20.3000mm 8.6000mm 20.3000mm 0.2700mm 0.4000mm "clearline"]
-	Line[23.0505mm 19.8000mm 10.4000mm 19.8000mm 0.2700mm 0.4000mm "clearline"]
+	Line[907.50mil 19.8000mm 10.4000mm 19.8000mm 0.2700mm 0.4000mm "clearline"]
 	Line[330.71mil 705.13mil 10.2897mm 19.8000mm 0.2700mm 0.4000mm "clearline"]
 	Line[10.2897mm 19.8000mm 10.6000mm 19.8000mm 0.2700mm 0.4000mm "clearline"]
 	Line[994.10mil 881.50mil 23.1600mm 20.3000mm 0.2700mm 0.4000mm "clearline"]
