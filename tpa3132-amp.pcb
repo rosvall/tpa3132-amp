@@ -9,7 +9,7 @@ Grid[1.000000 0.0000 0.0000 0]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[7.48mil 4.04mil 7.87mil 5.91mil 11.81mil 5.87mil]
-Flags("localref,showdrc,nameonpcb,autodrc,swapstartdir,clearnew")
+Flags("localref,showdrc,nameonpcb,autodrc,swapstartdir,clearnew,showmask")
 Groups("1,s:2,3,c:4:5")
 Styles["Signal,0.2700mm,0.6000mm,0.3000mm,0.2000mm:Power,27.56mil,8.00mil,4.00mil,0.2000mm:Fat,0.01mil,0.01mil,0.0000,0.0000:No clearance,0.0000,0.24mil,0.12mil,0.01mil"]
 
@@ -2205,13 +2205,14 @@ Layer(7 "silk")
 	Text[40.07mil 25.2707mm 0 100 "+" "clearline"]
 	Text[40.07mil 894.64mil 0 100 "-" "clearline"]
 	Text[40.07mil 695.10mil 0 100 "+" "clearline"]
-	Text[546.28mil 29.48mil 0 100 "TPA3132 Active Speaker Amp" "clearline,lock"]
-	Text[285.48mil 48.0278mm 0 100 "CC BY-SA 3.0 2014 Andreas Rosvall" "clearline"]
+	Text[284.73mil 17.58mil 0 100 "TPA3132 Active Speaker Amp" "clearline"]
+	Text[304.89mil 47.9359mm 0 100 "CC BY-SA 3.0 2014 Andreas Rosvall" "clearline"]
 	Text[37.1935mm 47.5430mm 0 100 "+" "clearline"]
 	Text[39.7848mm 47.5229mm 0 100 "-" "clearline"]
 	Text[37.1513mm 19.05mil 0 100 "+" "clearline"]
 	Text[39.7426mm 18.26mil 0 100 "-" "clearline"]
 	Text[40.07mil 794.53mil 0 100 "-" "clearline"]
+	Text[306.10mil 46.3695mm 0 100 "$Id$" "clearline"]
 )
 NetList()
 (
