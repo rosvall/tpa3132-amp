@@ -8,7 +8,7 @@ render: tpa3132-amp.sch.pdf \
 	pcb -x png --outfile $@ --dpi 115 --use-alpha --photo-mode $<
 
 %.pcb.composite.png: %.pcb
-	pcb -x png --as-shown --outfile $@ --dpi 1200 $<
+	pcb -x png --outfile $@ --dpi 1200 $<
 	mogrify -adaptive-resize 50% $@
 
 %.pcb.ps: %.pcb
