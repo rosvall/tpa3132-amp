@@ -8,7 +8,7 @@ What?
 -----
 This is going to be a very small, very efficient, and hopefully nice sounding amplifier. It's based on [TI's TPA3132D2](http://www.ti.com/product/tpa3132d2), which is a tiny class D amplifier-in-a-chip. It's the compact version of TPA3116D2.
 
-![board render](https://github.com/rosvall/tpa3132-amp/blob/filterless/tpa3132-amp.pcb.photomode.png?raw=true)
+![board render](https://github.com/rosvall/tpa3132-amp/blob/master/tpa3132-amp.pcb.photomode.png?raw=true)
 
 Actual size!
 50x50 mm (2x2 in)
@@ -26,9 +26,9 @@ I'm using itead's clearances etc.
 This is it so far:
 
 I started out with the TPA3116D2 reference schematic and modified it a bit.
-![schematic](https://github.com/rosvall/tpa3132-amp/blob/filterless/tpa3132-amp.sch.png?raw=true)
+![schematic](https://github.com/rosvall/tpa3132-amp/blob/master/tpa3132-amp.sch.png?raw=true)
 
-![composite](https://github.com/rosvall/tpa3132-amp/blob/filterless/tpa3132-amp.pcb.composite.png?raw=true)
+![composite](https://github.com/rosvall/tpa3132-amp/blob/master/tpa3132-amp.pcb.composite.png?raw=true)
 
 That thing there looks wrong...
 -------------------------------
