@@ -5,11 +5,11 @@ FileVersion[20091103]
 
 PCB["" 1968.50mil 1968.50mil]
 
-Grid[2500.000000 0.0000 0.0000 0]
+Grid[100.000000 0.0000 0.0000 0]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[7.48mil 4.04mil 7.87mil 5.91mil 11.81mil 5.87mil]
-Flags("localref,showdrc,nameonpcb,autodrc,swapstartdir,clearnew")
+Flags("localref,showdrc,nameonpcb,autodrc,swapstartdir,clearnew,snappin")
 Groups("1,s:2,3,c:4:5")
 Styles["Signal,0.2700mm,0.6000mm,0.3000mm,0.2000mm:Power,0.7000mm,8.00mil,4.00mil,0.2000mm:Fat,0.01mil,0.01mil,0.0000,0.0000:No clearance,0.0000,0.24mil,0.12mil,0.01mil"]
 
@@ -786,7 +786,7 @@ Symbol['~' 12.00mil]
 	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
 )
 Attribute("PCB::grid::unit" "mil")
-Attribute("PCB::grid::size" "25.00mil")
+Attribute("PCB::grid::size" "1.00mil")
 Via[157.48mil 45.9999mm 236.22mil 3.8288mm 131.98mil 125.98mil "" "hole"]
 Via[157.48mil 157.48mil 236.22mil 3.8288mm 131.98mil 125.98mil "" "hole"]
 Via[45.9999mm 45.9999mm 236.22mil 3.8288mm 131.98mil 125.98mil "" "hole"]
@@ -1159,7 +1159,7 @@ Element["" "MLCC3412" "FB6" "unknown" 32.1000mm 39.5000mm 45.28mil 334.65mil 2 1
 
 	)
 
-Element["" "HEADER2_2" "L_OUT" "unknown" 1468.50mil 45.2999mm 217.80mil -43.04mil 3 100 ""]
+Element["" "HEADER2_2" "L_OUT" "unknown" 1475.00mil 1800.00mil 217.80mil -43.04mil 3 100 ""]
 (
 	Attribute("device" "CONNECTOR_2")
 	Attribute("manufacturer" "unknown")
@@ -1289,7 +1289,7 @@ Element["" "MLCC3412" "FB5" "unknown" 43.3499mm 32.2501mm 153.54mil -39.37mil 3 
 
 	)
 
-Element["" "HEADER2_2" "R_OUT" "unknown" 39.9900mm 187.01mil 112.62mil -2.8133mm 3 100 ""]
+Element["" "HEADER2_2" "R_OUT" "unknown" 1575.00mil 150.00mil 112.62mil -2.8133mm 3 100 ""]
 (
 	Attribute("device" "CONNECTOR_2")
 	Attribute("manufacturer" "unknown")
@@ -2197,18 +2197,18 @@ Layer(6 "silk")
 )
 Layer(7 "silk")
 (
-	Text[100.16mil 34.8788mm 3 100 "+5-25Vdc" "clearline"]
-	Text[97.13mil 31.1434mm 3 100 "GND" "clearline"]
-	Text[59.07mil 779.53mil 0 100 "-" "clearline"]
-	Text[59.07mil 25.5501mm 0 100 "+" "clearline"]
-	Text[59.07mil 897.64mil 0 100 "-" "clearline"]
-	Text[59.07mil 681.10mil 0 100 "+" "clearline"]
+	Text[80.16mil 35.0566mm 3 100 "+5-25Vdc" "clearline"]
+	Text[81.13mil 31.0164mm 3 100 "GND" "clearline"]
+	Text[40.07mil 25.2707mm 0 100 "+" "clearline"]
+	Text[40.07mil 894.64mil 0 100 "-" "clearline"]
+	Text[40.07mil 695.10mil 0 100 "+" "clearline"]
 	Text[546.28mil 29.48mil 0 100 "TPA3132 Active Speaker Amp" "clearline,lock"]
 	Text[285.48mil 48.0278mm 0 100 "CC BY-SA 3.0 2014 Andreas Rosvall" "clearline"]
-	Text[37.0665mm 46.9080mm 0 100 "+" "clearline"]
-	Text[39.6578mm 46.8879mm 0 100 "-" "clearline"]
-	Text[37.1513mm 69.05mil 0 100 "+" "clearline"]
-	Text[39.7426mm 68.26mil 0 100 "-" "clearline"]
+	Text[37.1935mm 47.5430mm 0 100 "+" "clearline"]
+	Text[39.7848mm 47.5229mm 0 100 "-" "clearline"]
+	Text[37.1513mm 19.05mil 0 100 "+" "clearline"]
+	Text[39.7426mm 18.26mil 0 100 "-" "clearline"]
+	Text[40.07mil 794.53mil 0 100 "-" "clearline,selected"]
 )
 NetList()
 (
