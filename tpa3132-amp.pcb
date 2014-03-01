@@ -9,7 +9,7 @@ Grid[393.700787 0.1000mm 0.1000mm 0]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[7.48mil 4.04mil 7.87mil 5.91mil 11.81mil 5.87mil]
-Flags("localref,showdrc,nameonpcb,autodrc,swapstartdir,clearnew,snappin,locknames")
+Flags("localref,showdrc,nameonpcb,autodrc,swapstartdir,clearnew,snappin")
 Groups("1,s:2,3,c:4:5")
 Styles["Signal,0.2700mm,0.6000mm,0.3000mm,0.2000mm:Power,27.56mil,8.00mil,4.00mil,0.2000mm:Fat,0.01mil,0.01mil,0.0000,0.0000:No clearance,0.0000,0.24mil,0.12mil,0.01mil"]
 
@@ -853,7 +853,7 @@ Via[35.5999mm 29.1501mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
 Via[36.0999mm 37.6501mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
 Via[35.5999mm 40.1501mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
 Via[35.5999mm 38.6501mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
-Via[34.8499mm 1462.60mil 23.62mil 0.0000 0.0000 11.81mil "" ""]
+Via[34.8499mm 37.1500mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
 Via[37.8499mm 36.4001mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
 Via[37.8499mm 33.6501mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
 Via[37.8499mm 31.6501mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
@@ -996,7 +996,7 @@ Element["" "MLCC3412" "FB6" "unknown" 32.1000mm 39.5000mm 45.28mil 334.65mil 2 1
 
 	)
 
-Element["" "HEADER2_2" "L_OUT" "unknown" 1475.00mil 1800.00mil 217.80mil -43.04mil 3 100 ""]
+Element["" "HEADER2_2" "L_OUT" "unknown" 1475.00mil 1800.00mil 3.8379mm 3.6532mm 1 100 ""]
 (
 	Attribute("device" "CONNECTOR_2")
 	Attribute("manufacturer" "unknown")
@@ -1094,7 +1094,7 @@ Element["" "MLCC3412" "FB5" "unknown" 43.3499mm 32.2501mm 153.54mil -39.37mil 3 
 
 	)
 
-Element["" "HEADER2_2" "R_OUT" "unknown" 40.0750mm 3.8300mm -5.4650mm 2.7300mm 1 100 ""]
+Element["" "HEADER2_2" "R_OUT" "unknown" 40.0750mm 3.8300mm 2.8150mm -3.1900mm 3 100 ""]
 (
 	Attribute("device" "CONNECTOR_2")
 	Attribute("manufacturer" "unknown")
@@ -1560,7 +1560,7 @@ Element["" "HEADER5X1" "INPUT" "unknown" 150.00mil 650.00mil 3.1000mm 2.2000mm 3
 
 	)
 
-Element["" "MLCC0805" "C4" "4u7" 16.3000mm 16.6000mm 78.85mil -28.38mil 0 100 ""]
+Element["" "MLCC0805" "C4" "4u7" 16.3000mm 16.6000mm -3.4972mm -32.32mil 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1576,7 +1576,7 @@ Element["" "MLCC0805" "C4" "4u7" 16.3000mm 16.6000mm 78.85mil -28.38mil 0 100 ""
 
 	)
 
-Element["" "MLCC0805" "C3" "4u7" 16.3000mm 14.5000mm 77.84mil -24.59mil 0 100 ""]
+Element["" "MLCC0805" "C3" "4u7" 16.3000mm 14.5000mm -3.5229mm -32.46mil 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1592,7 +1592,7 @@ Element["" "MLCC0805" "C3" "4u7" 16.3000mm 14.5000mm 77.84mil -24.59mil 0 100 ""
 
 	)
 
-Element["" "MLCC0805" "C5" "1u" 16.3000mm 18.7000mm -55.12mil -98.43mil 0 100 ""]
+Element["" "MLCC0805" "C5" "1u" 16.3000mm 18.7000mm -3.5000mm -0.8001mm 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1608,7 +1608,7 @@ Element["" "MLCC0805" "C5" "1u" 16.3000mm 18.7000mm -55.12mil -98.43mil 0 100 ""
 
 	)
 
-Element["" "R0805" "R2" "39k" 16.3000mm 20.8000mm 54.80mil 102.06mil 2 100 ""]
+Element["" "R0805" "R2" "39k" 16.3000mm 20.8000mm -3.4919mm -0.7923mm 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1624,7 +1624,7 @@ Element["" "R0805" "R2" "39k" 16.3000mm 20.8000mm 54.80mil 102.06mil 2 100 ""]
 
 	)
 
-Element["" "R0805" "R1" "100k" 19.4000mm 19.8000mm -0.3953mm -3.1321mm 0 100 ""]
+Element["" "R0805" "R1" "100k" 19.4000mm 19.8000mm 1.2047mm -1.4321mm 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1640,7 +1640,7 @@ Element["" "R0805" "R1" "100k" 19.4000mm 19.8000mm -0.3953mm -3.1321mm 0 100 ""]
 
 	)
 
-Element["" "MLCC0805" "C2" "4u7" 16.3000mm 26.0000mm 77.44mil -27.10mil 0 100 ""]
+Element["" "MLCC0805" "C2" "4u7" 16.3000mm 26.0000mm -3.5330mm -0.7883mm 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1656,7 +1656,7 @@ Element["" "MLCC0805" "C2" "4u7" 16.3000mm 26.0000mm 77.44mil -27.10mil 0 100 ""
 
 	)
 
-Element["" "MLCC0805" "C1" "4u7" 16.3000mm 23.9000mm 78.25mil -28.73mil 0 100 ""]
+Element["" "MLCC0805" "C1" "4u7" 16.3000mm 23.9000mm -3.5124mm -32.67mil 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1720,7 +1720,7 @@ Element["" "MLCC0805" "C14" "1n" 27.0000mm 31.5000mm -161.42mil -27.56mil 0 100 
 
 	)
 
-Element["" "MLCC0805" "C10" "100n" 27.0000mm 16.3999mm -155.51mil -22.44mil 0 100 ""]
+Element["" "MLCC0805" "C10" "100n" 27.0000mm 16.3999mm -4.0500mm 1.0300mm 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1736,7 +1736,7 @@ Element["" "MLCC0805" "C10" "100n" 27.0000mm 16.3999mm -155.51mil -22.44mil 0 10
 
 	)
 
-Element["" "MLCC0805" "C12" "1n" 27.0000mm 18.5000mm 57.09mil 100.40mil 2 100 ""]
+Element["" "MLCC0805" "C12" "1n" 27.0000mm 18.5000mm -4.1501mm 0.1498mm 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2135,8 +2135,8 @@ Layer(3 "top")
 	Line[24.5000mm 12.5000mm 25.1000mm 13.1000mm 27.56mil 0.4000mm "clearline"]
 	Line[26.2501mm 881.50mil 26.2501mm 21.9501mm 0.2700mm 0.4000mm "clearline"]
 	Line[26.2501mm 21.9501mm 26.1000mm 21.8000mm 0.2700mm 0.4000mm "clearline"]
-	Line[22.5499mm 16.1000mm 22.5499mm 18.2499mm 0.2700mm 0.4000mm "clearline"]
-	Line[22.5499mm 18.2499mm 26.2000mm 21.9000mm 0.2700mm 0.4000mm "clearline"]
+	Line[22.5499mm 16.1000mm 22.5499mm 718.50mil 0.2700mm 0.4000mm "clearline"]
+	Line[22.5499mm 718.50mil 26.2000mm 21.9000mm 0.2700mm 0.4000mm "clearline"]
 	Line[903.55mil 41.4998mm 22.1000mm 41.4998mm 31.50mil 15.74mil "clearline"]
 	Line[22.1000mm 41.4998mm 1000.00mil 38.1998mm 31.50mil 15.74mil "clearline"]
 	Line[25.4028mm 38.2273mm 1000.00mil 30.1999mm 31.50mil 15.74mil "clearline"]
