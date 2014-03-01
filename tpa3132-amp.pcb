@@ -9,7 +9,7 @@ Grid[393.700787 0.1000mm 0.1000mm 0]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[7.48mil 4.04mil 7.87mil 5.91mil 11.81mil 5.87mil]
-Flags("localref,showdrc,nameonpcb,autodrc,swapstartdir,clearnew,snappin")
+Flags("localref,showdrc,nameonpcb,autodrc,swapstartdir,clearnew")
 Groups("1,s:2,3,c:4:5")
 Styles["Signal,0.2700mm,0.6000mm,0.3000mm,0.2000mm:Power,27.56mil,8.00mil,4.00mil,0.2000mm:Fat,0.01mil,0.01mil,0.0000,0.0000:No clearance,0.0000,0.24mil,0.12mil,0.01mil"]
 
@@ -905,30 +905,30 @@ Via[29.2001mm 35.8154mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
 Via[29.2001mm 1457.30mil 23.62mil 0.0000 0.0000 11.81mil "" ""]
 Via[29.2001mm 38.2154mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
 Via[29.2001mm 39.4154mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
-Via[16.2000mm 33.9000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
-Via[16.9000mm 33.9000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
-Via[17.6000mm 33.9000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
-Via[18.3000mm 33.9000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
-Via[19.0000mm 33.9000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
-Via[19.7000mm 33.9000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
-Via[16.2000mm 29.1000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
-Via[16.9000mm 29.1000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
-Via[17.6000mm 29.1000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
-Via[18.3000mm 29.1000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
-Via[19.0000mm 29.1000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
-Via[19.7000mm 29.1000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
-Via[15.7000mm 33.3000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
-Via[15.7000mm 32.6000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
-Via[15.7000mm 31.9000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
-Via[15.7000mm 31.2000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
-Via[15.7000mm 30.5000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
-Via[15.7000mm 29.8000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
-Via[20.0000mm 33.3000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
-Via[20.0000mm 32.6000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
-Via[20.0000mm 31.9000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
-Via[20.0000mm 31.2000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
-Via[20.0000mm 30.5000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
-Via[20.0000mm 29.8000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
+Via[19.5000mm 30.4000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
+Via[19.5000mm 31.1000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
+Via[19.5000mm 31.8000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
+Via[19.5000mm 32.5000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
+Via[19.5000mm 33.2000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
+Via[19.5000mm 33.9000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
+Via[15.2000mm 30.4000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
+Via[15.2000mm 31.1000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
+Via[15.2000mm 31.8000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
+Via[15.2000mm 32.5000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
+Via[15.2000mm 33.2000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
+Via[15.2000mm 33.9000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
+Via[19.2000mm 29.7000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
+Via[18.5000mm 29.7000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
+Via[17.8000mm 29.7000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
+Via[17.1000mm 29.7000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
+Via[16.4000mm 29.7000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
+Via[15.7000mm 29.7000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
+Via[19.2000mm 34.5000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
+Via[18.5000mm 34.5000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
+Via[17.8000mm 34.5000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
+Via[17.1000mm 34.5000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
+Via[16.4000mm 34.5000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
+Via[15.7000mm 34.5000mm 23.62mil 0.0000 0.0000 11.81mil "" ""]
 
 Element["" "HEADER2_2" "PWR" "unknown" 150.00mil 1400.00mil -39.15mil 59.84mil 0 100 ""]
 (
@@ -937,46 +937,14 @@ Element["" "HEADER2_2" "PWR" "unknown" 150.00mil 1400.00mil -39.15mil 59.84mil 0
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
-	Pin[0.0000 0.0000 70.00mil 16.09mil 76.00mil 38.00mil "1" "1" "square"]
-	Pin[0.0000 -100.00mil 70.00mil 16.09mil 76.00mil 38.00mil "2" "2" ""]
+	Pin[0.0000 0.0000 70.00mil 20.09mil 76.00mil 38.00mil "1" "1" "square"]
+	Pin[0.0000 -100.00mil 70.00mil 20.09mil 76.00mil 38.00mil "2" "2" ""]
 	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
 	ElementLine [50.00mil -150.00mil 50.00mil 50.00mil 10.00mil]
 	ElementLine [-50.00mil -150.00mil 50.00mil -150.00mil 10.00mil]
 	ElementLine [-50.00mil -150.00mil -50.00mil 50.00mil 10.00mil]
 	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
 	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
-
-	)
-
-Element["" "MLCC3412" "FB2" "unknown" 13.1000mm 31.5001mm 331.91mil -83.56mil 3 100 ""]
-(
-	Attribute("device" "HI3312X101R-10")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-187.99mil -10.43mil -187.99mil 10.43mil 138.98mil 14.96mil 141.98mil "1" "1" "square"]
-	Pad[187.99mil -10.43mil 187.99mil 10.43mil 138.98mil 0.0000 141.98mil "2" "2" "square"]
-	ElementLine [-268.50mil -90.94mil -268.50mil 90.94mil 6.10mil]
-	ElementLine [268.50mil -90.94mil 268.50mil 90.94mil 6.10mil]
-	ElementLine [-268.50mil 90.94mil 268.50mil 90.94mil 6.10mil]
-	ElementLine [-268.50mil -90.94mil 268.50mil -90.94mil 6.10mil]
-
-	)
-
-Element["" "MLCC3412" "FB1" "unknown" 514.77mil 36.4500mm 330.15mil -81.42mil 3 100 ""]
-(
-	Attribute("device" "HI3312X101R-10")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-187.99mil -10.43mil -187.99mil 10.43mil 138.98mil 14.96mil 141.98mil "1" "1" "square"]
-	Pad[187.99mil -10.43mil 187.99mil 10.43mil 138.98mil 14.96mil 141.98mil "2" "2" "square"]
-	ElementLine [-268.50mil -90.94mil -268.50mil 90.94mil 6.10mil]
-	ElementLine [268.50mil -90.94mil 268.50mil 90.94mil 6.10mil]
-	ElementLine [-268.50mil 90.94mil 268.50mil 90.94mil 6.10mil]
-	ElementLine [-268.50mil -90.94mil 268.50mil -90.94mil 6.10mil]
 
 	)
 
@@ -1306,7 +1274,7 @@ Element["" "TQFN32_5_EP" "U1" "TPA3132D2" 26.9999mm 984.25mil -2.6769mm -182.05m
 	Pad[-68.89mil 86.22mil -68.89mil 102.75mil 11.02mil 0.0000 14.02mil "AM1" "9" "square,octagon,edge2"]
 	Pad[-49.21mil 86.22mil -49.21mil 102.75mil 11.02mil 0.0000 14.02mil "AM0" "10" "square,octagon,edge2"]
 	Pad[-29.52mil 86.22mil -29.52mil 102.75mil 11.02mil 18.03mil 14.02mil "SYNC" "11" "square,octagon,edge2"]
-	Pad[-9.84mil 86.22mil -9.84mil 102.75mil 11.02mil 0.4300mm 14.02mil "AVCC" "12" "square,octagon,edge2"]
+	Pad[-9.84mil 86.22mil -9.84mil 102.75mil 11.02mil 0.4300mm 14.02mil "AVCC" "12" "square,warn,octagon,edge2"]
 	Pad[9.84mil 86.22mil 9.84mil 102.75mil 11.02mil 0.4300mm 14.02mil "PVCC" "13" "square,octagon,edge2"]
 	Pad[29.52mil 86.22mil 29.52mil 102.75mil 11.02mil 0.4300mm 14.02mil "PVCC" "14" "square,octagon,edge2"]
 	Pad[49.21mil 86.22mil 49.21mil 102.75mil 11.02mil 0.4579mm 14.02mil "BSPL" "15" "square,octagon,edge2"]
@@ -1545,7 +1513,7 @@ Element["" "HEADER5X1" "INPUT" "unknown" 150.00mil 650.00mil 3.1000mm 2.2000mm 3
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 -50.00mil 60.00mil 30.00mil 72.00mil 38.00mil "1" "1" "square"]
 	Pin[0.0000 50.00mil 60.00mil 30.00mil 72.00mil 38.00mil "2" "2" ""]
-	Pin[0.0000 150.00mil 60.00mil 30.00mil 72.00mil 38.00mil "3" "3" ""]
+	Pin[0.0000 150.00mil 60.00mil 30.00mil 72.00mil 38.00mil "3" "3" "warn"]
 	Pin[0.0000 250.00mil 60.00mil 30.00mil 72.00mil 38.00mil "4" "4" ""]
 	Pin[0.0000 350.00mil 60.00mil 30.00mil 72.00mil 38.00mil "5" "5" "square"]
 	ElementLine [-50.00mil -100.00mil 50.00mil -100.00mil 10.00mil]
@@ -1799,6 +1767,38 @@ Element["" "MLCC0805" "C29" "1u" 27.0000mm 35.6999mm -165.35mil -31.50mil 0 100 
 	ElementLine [-66.73mil 37.20mil 66.73mil 37.20mil 6.10mil]
 
 	)
+
+Element["" "MLCC3412" "FB1" "unknown" 12.5752mm 37.0500mm 330.15mil -81.42mil 3 100 ""]
+(
+	Attribute("device" "HI3312X101R-10")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-187.99mil -10.43mil -187.99mil 10.43mil 138.98mil 14.96mil 141.98mil "1" "1" "square"]
+	Pad[187.99mil -10.43mil 187.99mil 10.43mil 138.98mil 14.96mil 141.98mil "2" "2" "square"]
+	ElementLine [-268.50mil -90.94mil -268.50mil 90.94mil 6.10mil]
+	ElementLine [268.50mil -90.94mil 268.50mil 90.94mil 6.10mil]
+	ElementLine [-268.50mil 90.94mil 268.50mil 90.94mil 6.10mil]
+	ElementLine [-268.50mil -90.94mil 268.50mil -90.94mil 6.10mil]
+
+	)
+
+Element["" "MLCC3412" "FB2" "unknown" 12.6000mm 32.1001mm 331.91mil -83.56mil 3 100 ""]
+(
+	Attribute("device" "HI3312X101R-10")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-187.99mil -10.43mil -187.99mil 10.43mil 138.98mil 14.96mil 141.98mil "1" "1" "square"]
+	Pad[187.99mil -10.43mil 187.99mil 10.43mil 138.98mil 0.0000 141.98mil "2" "2" "square"]
+	ElementLine [-268.50mil -90.94mil -268.50mil 90.94mil 6.10mil]
+	ElementLine [268.50mil -90.94mil 268.50mil 90.94mil 6.10mil]
+	ElementLine [-268.50mil 90.94mil 268.50mil 90.94mil 6.10mil]
+	ElementLine [-268.50mil -90.94mil 268.50mil -90.94mil 6.10mil]
+
+	)
 Layer(1 "bottom")
 (
 	Polygon("clearpoly")
@@ -1808,12 +1808,8 @@ Layer(1 "bottom")
 )
 Layer(2 "top-gnd")
 (
-	Line[956.42mil 27.7228mm 956.41mil 27.7228mm 10.63mil 15.75mil ""]
-	Line[25.8082mm 1031.80mil 956.42mil 27.7228mm 10.63mil 15.75mil ""]
 	Line[25.7500mm 26.2659mm 25.8082mm 1031.80mil 10.63mil 15.75mil ""]
-	Line[25.7500mm 27.1899mm 25.7500mm 26.2659mm 10.63mil 15.75mil ""]
 	Line[25.7660mm 26.2499mm 25.8082mm 1031.80mil 10.63mil 15.75mil ""]
-	Line[960.24mil 26.2499mm 25.7660mm 26.2499mm 10.63mil 15.75mil ""]
 	Line[15.3500mm 728.35mil 15.3500mm 20.8000mm 0.2700mm 0.4000mm "clearline"]
 	Line[15.3500mm 14.3001mm 14.4101mm 600.00mil 0.2700mm 0.4000mm "clearline"]
 	Line[15.3500mm 21.1000mm 16.1501mm 21.9000mm 0.2700mm 0.4000mm "clearline"]
@@ -1824,10 +1820,6 @@ Layer(2 "top-gnd")
 	Line[243.70mil 22.7000mm 19.7000mm 22.7000mm 0.2700mm 0.4000mm "clearline"]
 	Line[19.7000mm 22.7000mm 21.7500mm 24.7500mm 0.2700mm 0.4000mm "clearline"]
 	Line[21.7500mm 24.7500mm 23.7500mm 24.7500mm 0.2700mm 0.4000mm "clearline"]
-	Polygon("clearpoly")
-	(
-		[30.0000mm 22.1000mm] [24.1000mm 22.1000mm] [24.1000mm 27.9000mm] [30.0000mm 27.9000mm] 
-	)
 	Polygon("clearpoly")
 	(
 		[41.3000mm 14.9000mm] [32.2000mm 14.9000mm] [32.2000mm 19.5000mm] [41.3000mm 19.5000mm] 
@@ -1870,7 +1862,11 @@ Layer(2 "top-gnd")
 	)
 	Polygon("clearpoly")
 	(
-		[15.4000mm 34.2000mm] [20.3000mm 34.2000mm] [20.3000mm 28.8000mm] [15.4000mm 28.8000mm] 
+		[14.9000mm 34.8000mm] [19.8000mm 34.8000mm] [19.8000mm 29.4000mm] [14.9000mm 29.4000mm] 
+	)
+	Polygon("clearpoly")
+	(
+		[24.8000mm 22.8000mm] [29.1000mm 22.8000mm] [29.1000mm 27.2000mm] [24.8000mm 27.2000mm] 
 	)
 )
 Layer(3 "top")
@@ -1901,7 +1897,6 @@ Layer(3 "top")
 	Line[157.48mil 32.9601mm 165.75mil 32.7500mm 31.50mil 15.74mil "clearline"]
 	Line[165.75mil 32.7500mm 275.59mil 32.7500mm 47.25mil 15.74mil "clearline"]
 	Line[797.25mil 41.9999mm 702.76mil 39.6001mm 47.25mil 15.74mil "clearline"]
-	Line[702.76mil 39.6001mm 702.76mil 36.4500mm 47.25mil 15.74mil "clearline"]
 	Line[32.4500mm 720.48mil 32.4500mm 749.40mil 31.50mil 15.74mil "clearline"]
 	Line[32.4500mm 749.40mil 29.7094mm 857.30mil 31.50mil 15.74mil "clearline"]
 	Line[29.7759mm 854.69mil 28.9799mm 886.02mil 31.50mil 15.74mil "clearline"]
@@ -2158,6 +2153,8 @@ Layer(3 "top")
 	Line[24.5000mm 30.8999mm 24.5000mm 37.4999mm 27.56mil 0.4000mm "clearline"]
 	Line[25.1000mm 36.8999mm 25.1000mm 30.9999mm 27.56mil 0.4000mm "clearline"]
 	Line[24.5000mm 37.4999mm 25.1000mm 36.8999mm 27.56mil 0.4000mm "clearline"]
+	Line[17.8750mm 39.6250mm 17.3501mm 37.0500mm 47.25mil 15.74mil "clearline"]
+	Line[27.0000mm 27.4999mm 27.0000mm 28.2000mm 0.7500mm 0.4000mm "clearline"]
 )
 Layer(4 "outline")
 (
