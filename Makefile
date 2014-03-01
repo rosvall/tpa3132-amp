@@ -1,4 +1,3 @@
-VERSION := $(shell git describe --always)
 
 BASENAME := tpa3132-amp
 GENERATE := $(BASENAME).sch.pdf \
@@ -50,7 +49,7 @@ clean:
 	cp $*.outline.gbr $@/$*.GKO
 
 %.v.pcb: %.pcb
-	sed -e 's/\$$Id\$$/$(VERSION)/gi' < $< > $@
+	sed -e 's/\$$Id\$$/$(shell git hash-object $< | cut -c -8)/gi' < $< > $@
 
 %.v.sch: %.sch
-	sed -e 's/\$$Id\$$/$(VERSION)/gi' < $< > $@
+	sed -e 's/\$$Id\$$/$(shell git hash-object $< | cut -c -8)/gi' < $< > $@
