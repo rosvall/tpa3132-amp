@@ -1757,7 +1757,7 @@ Element["" "MLCC3412" "FB1" "unknown" 15.7000mm 38.0251mm -81.42mil -330.15mil 0
 
 	)
 
-Element["" "HEADER2_2" "PWR" "unknown" 11.7400mm 46.5100mm -59.84mil -54.90mil 3 100 ""]
+Element["" "HEADER2_2" "PWR" "unknown" 14.2600mm 46.4900mm 59.84mil 54.90mil 1 100 ""]
 (
 	Attribute("device" "CONNECTOR_2")
 	Attribute("manufacturer" "unknown")
@@ -1765,13 +1765,13 @@ Element["" "HEADER2_2" "PWR" "unknown" 11.7400mm 46.5100mm -59.84mil -54.90mil 3
 	Attribute("vendor" "unknown")
 	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 70.00mil 20.09mil 76.00mil 38.00mil "1" "1" "square,edge2"]
-	Pin[100.00mil 0.0000 70.00mil 20.09mil 76.00mil 38.00mil "2" "2" "edge2"]
-	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 150.00mil 50.00mil 10.00mil]
-	ElementLine [150.00mil -50.00mil 150.00mil 50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil 150.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
+	Pin[-100.00mil 0.0000 70.00mil 20.09mil 76.00mil 38.00mil "2" "2" "edge2"]
 	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [-150.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
+	ElementLine [-150.00mil -50.00mil -150.00mil 50.00mil 10.00mil]
+	ElementLine [-150.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
 
 	)
 
@@ -1790,7 +1790,6 @@ Element["" "MLCC3412" "FB2" "unknown" 10.3000mm 38.0251mm -83.56mil -331.91mil 0
 	ElementLine [-90.94mil -268.50mil -90.94mil 268.50mil 6.10mil]
 
 	)
-Rat[11.6601mm 46.1000mm 1 14.3103mm 46.0596mm 1  ""]
 Layer(1 "bottom")
 (
 	Polygon("clearpoly,lock")
