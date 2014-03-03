@@ -9,7 +9,7 @@ Grid[393.700787 0.1000mm 0.1000mm 0]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[7.48mil 4.04mil 7.87mil 5.91mil 11.81mil 5.87mil]
-Flags("localref,showdrc,nameonpcb,autodrc,swapstartdir,clearnew,snappin,locknames")
+Flags("localref,showdrc,nameonpcb,autodrc,swapstartdir,clearnew,snappin")
 Groups("1,s:2,3,c:4:5")
 Styles["Signal,0.2700mm,0.6000mm,0.3000mm,0.2000mm:Power,1.8000mm,8.00mil,4.00mil,0.2000mm:Fat,0.01mil,0.01mil,0.0000,0.0000:No clearance,0.0000,0.24mil,0.12mil,0.01mil"]
 
@@ -1518,7 +1518,7 @@ Element["" "NICHICON_WT_CAP_8_5p4" "C6" "220u" 24.5711mm 9.2341mm -6.4711mm -4.4
 
 	)
 
-Element["" "MLCC0805" "C10" "100n" 27.0000mm 17.2999mm -4.1000mm -0.7999mm 0 100 ""]
+Element["" "MLCC0805" "C10" "100n" 27.0000mm 17.2999mm -3.2000mm 0.7001mm 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1534,7 +1534,7 @@ Element["" "MLCC0805" "C10" "100n" 27.0000mm 17.2999mm -4.1000mm -0.7999mm 0 100
 
 	)
 
-Element["" "MLCC0805" "C12" "1n" 27.0000mm 19.4000mm -4.2000mm -0.8000mm 0 100 ""]
+Element["" "MLCC0805" "C12" "1n" 27.0000mm 19.4000mm -3.2000mm 1.0000mm 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1566,7 +1566,7 @@ Element["" "MLCC0805" "C28" "1u" 26.9947mm 15.1933mm -4.2947mm -0.7933mm 0 100 "
 
 	)
 
-Element["" "MLCC0805" "C11" "100n" 27.0000mm 32.7002mm -4.0000mm -0.8002mm 0 100 ""]
+Element["" "MLCC0805" "C11" "100n" 27.0000mm 32.7002mm -3.8000mm -0.7002mm 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1582,7 +1582,7 @@ Element["" "MLCC0805" "C11" "100n" 27.0000mm 32.7002mm -4.0000mm -0.8002mm 0 100
 
 	)
 
-Element["" "MLCC0805" "C14" "1n" 27.0000mm 30.6000mm -4.3000mm -0.8000mm 0 100 ""]
+Element["" "MLCC0805" "C14" "1n" 27.0000mm 30.6000mm -4.1000mm -0.3000mm 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1598,7 +1598,7 @@ Element["" "MLCC0805" "C14" "1n" 27.0000mm 30.6000mm -4.3000mm -0.8000mm 0 100 "
 
 	)
 
-Element["" "MLCC0805" "C29" "1u" 26.9999mm 34.8000mm -4.2999mm -0.8000mm 0 100 ""]
+Element["" "MLCC0805" "C29" "1u" 26.9999mm 34.8000mm -4.1999mm -0.7000mm 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1664,7 +1664,7 @@ Element["" "MLCC3412" "FB2" "unknown" 10.1000mm 38.0000mm -83.56mil -331.91mil 0
 
 	)
 
-Element["" "MLCC0805" "C5" "1u" 20.0000mm 24.6000mm -31.50mil 3.5000mm 1 100 ""]
+Element["" "MLCC0805" "C5" "1u" 20.0000mm 24.6000mm -4.0001mm 0.6000mm 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1696,7 +1696,7 @@ Element["" "R0805" "R7" "100k" 19.6000mm 15.2000mm -3.6290mm -0.7110mm 0 100 ""]
 
 	)
 
-Element["" "R0805" "R2" "39k" 22.1000mm 24.6000mm -0.7923mm 3.4919mm 1 100 ""]
+Element["" "R0805" "R2" "39k" 22.1000mm 24.6000mm -4.6923mm 0.6919mm 1 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
@@ -1712,7 +1712,7 @@ Element["" "R0805" "R2" "39k" 22.1000mm 24.6000mm -0.7923mm 3.4919mm 1 100 ""]
 
 	)
 
-Element["" "R0805" "R1" "100k" 20.6000mm 21.8000mm -1.4321mm -1.2047mm 1 100 ""]
+Element["" "R0805" "R1" "100k" 20.6000mm 21.8000mm -3.1953mm -0.6321mm 0 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
