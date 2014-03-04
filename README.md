@@ -11,7 +11,7 @@ This is going to be a very small, very efficient, and hopefully nice sounding am
 ![board render](https://github.com/rosvall/tpa3132-amp/blob/master/tpa3132-amp.pcb.photomode.png?raw=true)
 
 Actual size!
-50x50 mm (2x2 in)
+31mm x 38mm (1.2in x 1.5in)
 
 Why?
 ----
